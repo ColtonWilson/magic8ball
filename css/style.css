@@ -1,0 +1,59 @@
+.page {
+    max-width: 960px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  
+header, p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #f8f8f8;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  header {
+    text-align: center;
+  }
+  header span {
+    font-size: 60px;
+    font-size: 2em;
+    color: #10e0c5;
+  }
+
+  .ball {
+  position: relative;
+  }
+  .ball img{
+    width: 400px;
+    max-width: 40em;
+    height: auto;
+
+  }
+
+  #questionButton {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-size: 1.875em;
+    color: #f8f8f8;
+    background-color: #10e0c5;
+    border-radius: 5px;
+    border: none;
+    padding: .5em 1em;
+    width: 80%;
+    max-width: 15em;
+    margin-top: 1em;
+  }
+  
+  footer p {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-size: .75em;
+  }
+
+  body{
+      background-image: url(https://cutewallpaper.org/21/purple-magic-background/Magic-Petals-Purple-1-GIF.gif);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+  }
