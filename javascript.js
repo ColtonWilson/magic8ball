@@ -5,15 +5,21 @@
    
     magic8Ball.getAnswer = function(question)
     {
+      // if(question.equals( "Answer to the Ultimate Question of Life, the Universe, and Everything?"))
+      // {
+      //   document.getElementById('42').innerText = "42";
+      // }
+      // else
+      // {
       let randomNumber = Math.random();
       let randomAnswer = Math.floor(randomNumber * this.listofanswers.length);
       let answer = this.listofanswers[randomAnswer];
       
       document.getElementById('ballanswer').src = answer;
+      //}
       
   
-      console.log(question);
-      console.log(answer);
+
     };
 
     magic8Ball.postquestion = function(question)
@@ -23,7 +29,7 @@
 
 
     document.getElementById('questionButton').addEventListener('click', function() {
-        let question = prompt("What do you want to know?", "Will it rain today?");
+        let question = prompt(" What Knowledge You Seek", "Answer to the Ultimate Question of Life, the Universe, and Everything?");
           magic8Ball.getAnswer(question);
           magic8Ball.postquestion(question);
     });
